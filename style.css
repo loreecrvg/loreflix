@@ -1,5 +1,5 @@
 body {
-  font-family: "bebas";
+  font-family: 'Copperplate';
   text-align: center;
   background-color: #000000;
   background-size: cover;
@@ -20,6 +20,7 @@ body {
 .page-subtitle {
   color: #ffffff;
   margin-top: 5px;
+  font-family: "Century Gothic";
     
 }
 
@@ -41,6 +42,8 @@ h2 {
   text-align: center;
   font-size: 15px;
   color: #ffffff;
+  font-family: "Century Gothic"
 }
+
 
 
