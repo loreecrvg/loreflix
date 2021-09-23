@@ -2,21 +2,25 @@
   <html lang="en">
 
   <head>
-        <head><link rel="stylesheet" href="style.css"></head>
+    <a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/210923/852187fefe86d74185f773d75d73d610.png" alt="netflix-font" border="0"></a>
+
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="container">
-      <title>LOREFLIX</title>
-      <h1 class="page-title">
-        LOREFLIX
-      </h1>
-    <h2> Catálogo de filmes preferidos </h2>
-  </head>
-    <p class="page-subtitle">
-      Qual seu filme favorito?
-    </p>
-    
+    <<div class="container">
+      <input class="inserirImagem" id="entradaImagem" placeholder="Insira a Url da Imagem">
+      <input class="inserirNome" id="entradaNome" placeholder="Insira o Nome do Filme">
+      <button class="buttonInserir" type="submit" onclick="Enviar()">Adicionar</button>
+      <div class="select"></div>
+
+      <label for="films">Escolha um Filme para Excluir:</label>
+      <select id="select" name="films"></select>
+      <button class="buttonRemover" type="submit" onclick="Remover()">Remover</button>
+
+      <div class="filmes"></div>
 
   <body>
     <script src="script.js"></script>
