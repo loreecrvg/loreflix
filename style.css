@@ -32,6 +32,14 @@ img {
   margin: 10px;
 }
 
+.footer {
+  position:absolute;
+  color: rgb(255, 255, 255);
+  bottom: 50px
+  width: 100%;
+
+}
+
 p {
   text-align: center;
   font-size: 35px;
